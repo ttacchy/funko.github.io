@@ -1,0 +1,42 @@
+/* CSS Reset */
+
+/* Reset de box-sizing para garantir consistência */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remoção de margens padrão de alguns elementos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remoção de estilos padrão de lista */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remoção do espaçamento padrão de lista */
+ul,
+menu,
+dir {
+    padding-left: 0;
+    padding-inline-start: 0
+
